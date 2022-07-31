@@ -62,7 +62,7 @@ jobs:
         working-directory: /workdir
         run: |
           df -hT $PWD
-          git clone https://github.com/HiGarfield/lede-17.01.4-Mod.git -b master lede-17.01.4-Mod
+          git clone https://github.com/wifislax678/lede-17.01.4-Mod.git -b master lede-17.01.4-Mod
           ln -sf /workdir/lede-17.01.4-Mod $GITHUB_WORKSPACE/lede-17.01.4-Mod
 
           WORKING_DIR="$GITHUB_WORKSPACE/lede-17.01.4-Mod"
